@@ -66,8 +66,9 @@ In = sim.get_array(
     component = mp.EnergyDensity
     )
 
-n=m = plt.figure(1)
+m = plt.figure(1)
 plt.plot(theta,(In))
 plt.title("elevation angle vs Intensity     ")
 plt.xlabel('theta')
 plt.ylabel('enegydensity')
+plt.show()
